@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    line-height: 150%;
+ 
+}
+
+body {
+    background-image: url(https://sportsjob.com.br/wp-content/uploads/2020/11/futebol.jpg);
+    background-size: cover;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.caixa-maior {
+    background-color: rgb(10, 138, 57);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.input {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    outline: none;
+}
+
+.resultados {
+    background-color: rgb(127, 180, 146);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    border-radius: 20px;
+    display: none;
+}
